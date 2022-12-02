@@ -1,0 +1,48 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://colorlib.com/etc/lf/Login_v5/images/bg-01.jpg"); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  font-family: 'Montserrat';
+}
+
+.box {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 10px;
+  padding: 2vw 2vw;
+}
+.inputBox{
+    margin: 1px 0;
+}
+input{
+    font-family: 'Poppins';
+    border: 1px solid #fb00ff3a;
+    border-radius: 2px;
+}
+textarea#motivo{
+    border: 1px solid #fb00ff3a;
+    border-radius: 2px;
+    width: 100%;
+    height: 15vh;
+    text-align: start;
+}
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+    border: 1px solid #fc00ff;
+} 
+
+p{
+    margin-bottom: 5px;
+}
+.checklist{
+    display: flex;
+    flex-direction: column;
+}

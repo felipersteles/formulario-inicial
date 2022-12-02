@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Author" content="Felipe Teles e Guilherme Malty" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+    <title>Formulário Inicial</title>
+  </head>
+  <body>
+    <div class="box">
+      <form action="https://formsubmit.co/guilhermemalty@gmail.com">
+        <input type="hidden" name="_captcha" value="false" />
+
+        <fieldset>
+          <legend><h3>Formulário de informações do cliente</h3></legend>
+
+          <br />
+
+          <div class="inputBox">
+            <label for="nome">Nome do cliente:</label>
+            <input type="text" name="nome" id="nome" class="inputNome" />
+          </div>
+
+          <br />
+
+          <div class="inputBox">
+            <label for="motivo">Motivo da criação do site:</label>
+            <br />
+            <textarea
+              placeholder="Divulgação, apresentação de contéudo, automatizar tarefa, etc..."
+              name="motivo"
+              id="motivo"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div class="checklist">
+            <p>Em quais serviços tens interesse?</p>
+            <div class="checklist-item">
+              <input
+                type="radio"
+                name="servico"
+                id="frontend"
+                value="frontend"
+              />
+              <label for="frontend"
+                >Criação de site (Design e desenvolvimento)</label
+              >
+            </div>
+
+            <div class="checklist-item">
+              <input
+                type="radio"
+                name="servico"
+                id="hospedagem"
+                value="hospedagem"
+              />
+              <label for="hospedagem">Hospedagem de site</label>
+            </div>
+            <div class="checklist-item">
+              <input type="radio" name="servico" id="backend" value="backend" />
+              <label for="backend">Criação de sistema</label>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
