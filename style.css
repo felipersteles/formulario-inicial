@@ -18,6 +18,8 @@ html {
   color: black;
   border-radius: 10px;
   padding: 2vw 2vw;
+  width: 80%;
+  font-size: 2.6vh;
 }
 .inputBox{
     margin: 1px 0;
@@ -45,4 +47,16 @@ p{
 .checklist{
     display: flex;
     flex-direction: column;
+}
+
+button{
+    margin-top: 25px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    color: white;
+    background-color: #333;
+    border-radius: 10px;
 }
