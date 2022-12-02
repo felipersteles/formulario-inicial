@@ -95,7 +95,9 @@
             </div>
           </div>
 
-          <button type="submit" id="formButton">Enviar</button>
+          <button style="cursor: pointer" type="submit" id="formButton">
+            Enviar
+          </button>
         </fieldset>
       </form>
     </div>
@@ -104,7 +106,7 @@
       document
         .getElementById("formButton")
         .addEventListener("click", function (event) {
-          event.preventDefault();
+          alert("Informações enviadas com sucesso!");
         });
     </script>
   </body>
